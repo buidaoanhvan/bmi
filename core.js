@@ -1,6 +1,13 @@
 function BMI() {
     let chieucao = document.getElementById("chieucao").value;
     let cannang = document.getElementById("cannang").value;
+    let ngaysinh = document.getElementById("ngaysinh").value;
+    let sdt = document.getElementById("sdt").value;
+
+    if (chieucao == "" && cannang == "" && ngaysinh == "" && sdt == "") {
+        alert("Vui lòng nhập đủ thông tin!")
+    }
+
     let bmi = (cannang / ((chieucao * chieucao) / 10000)).toFixed(2);
 
     if (bmi < 16) {
