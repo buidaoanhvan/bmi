@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+      shrink-to-fit=no" />
+  <link href="bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="text-center my-5 fs-2 fw-bold">
+      KIỂM TRA TÌNH TRẠNG DINH DƯỠNG
+    </h1>
+    <div class="row my-4">
+      <div class="col-12 col-md-6">
+        <div class="form-floating mb-3">
+          <input type="date" class="form-control" id="ngaysinh" />
+          <label for="ngaysinh">Ngày sinh:</label>
+        </div>
+        <div class="input-group mb-3">
+          <div class="form-floating">
+            <input type="number" class="form-control" id="cannang" />
+            <label for="cannang">Cân nặng:</label>
+          </div>
+          <span class="input-group-text">kg</span>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="email" />
+          <label for="email">Địa chỉ email:</label>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="form-floating mb-3">
+          <select class="form-select" id="gioitinh" aria-label="Floating label
+              select example">
+            <option value="1">Nam</option>
+            <option value="2">Nữ</option>
+          </select>
+          <label for="gioitinh">Giới tính:</label>
+        </div>
+        <div class="input-group mb-3">
+          <div class="form-floating">
+            <input type="number" class="form-control" id="chieucao" />
+            <label for="chieucao">Chiều cao:</label>
+          </div>
+          <span class="input-group-text">cm</span>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="number" class="form-control" id="sdt" />
+          <label for="sdt">Số điện thoại:</label>
+        </div>
+      </div>
+    </div>
+    <div class="row my-4">
+      <div class="col d-flex justify-content-center">
+        <button type="button" class="btn btn-primary btn-lg fw-semibold" onclick="BMI()">
+          KIỂM TRA
+        </button>
+      </div>
+    </div>
+    <div>
+      <h2 class="fs-5 fw-bold">LƯU Ý:</h2>
+      <p class="mb-1">
+        - Tham gia ngay cộng đồng
+        <span class="fw-bold">Nutri Academy</span> để được tư vấn và nhận
+        nhiều thông tin giá trị hơn từ đội ngũ chuyên gia của chúng tôi.
+      </p>
+      <ul class="mb-1">
+        <li>Cộng đồng Zalo: (tại đây)</li>
+        <li>Cộng đồng Facebook: (tại đây)</li>
+      </ul>
+      <p class="mb-1">
+        - Đặt lịch tư vấn với đội ngũ chuyên gia bác sĩ Click ngay
+      </p>
+      <p class="mb-1">
+        - Để biết thêm thông tin chi tiết, liên hệ ngay hotline 0813.55.68.32
+      </p>
+    </div>
+    <div class="row">
+      <div class="col d-flex justify-content-center align-items-center">
+        <img src="./img/04.png" id="img-bmi" class="img-fluid">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col d-flex flex-column align-items-center">
+        <h3 class="fw-bold fs-5">CHỈ SỐ BMI CỦA BẠN: <span class="badge rounded-pill text-bg-primary" id="bmi">0</span>
+        </h3>
+        <h3 class="fw-bold fs-5">ĐÁNH GIÁ: <span class="badge rounded-pill text-bg-primary" id="danhgia">--</span></h3>
+
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col d-flex justify-content-center">
+        <h4 class="my-5 fs-5 text-danger fw-bold text-center">KHUYẾN NGHỊ TỪ CHUYÊN GIA NUTRI ACADEMY - ĐỪNG BỎ QUA</h4>
+      </div>
+    </div>
+    <div class="row mb-4 px-3">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="fw-bold fs-6">1. TÌNH TRẠNG</h4>
+          <div id="tinhtrang"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row mb-4 px-3">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="fw-bold fs-6">2. NGUY CƠ</h4>
+          <div id="nguyco"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row my-4 px-3">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="fw-bold fs-6">3. GỢI Ý</h4>
+          <div id="goiy"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="core.js"></script>
+</body>
+
+</html>
