@@ -65,7 +65,7 @@ function BMI() {
 let info = {
     a1: {
         bmi: "Chỉ số BMI < 16",
-        danhgia: "Bạn đang ở tình trạng gầy độ 3",
+        danhgia: "Tình trạng gầy độ 3",
         tinhtrang: "Rất nguy hiểm",
         nguyco:
             "Nguyên nhân dẫn đến tình trạng chủ yếu do cơ thể kém hấp thu, ăn uống kém, mất cảm giác thèm ăn nên qua loa cho xong bữa, khẩu phần không cân đối, thực đơn thiếu đa dạng, … thời gian dài dẫn đến tình trạng cơ thể đang thiếu protein, chất béo, vitamin và khoáng chất. Đây là mức độ nghiêm trọng làm cho bạn dễ ốm, đối mặt với nhiều nguy cơ bệnh tật như loãng xương, thiếu máu, vô sinh, rụng tóc, suy nhược, giảm trí nhớ…",
@@ -74,7 +74,7 @@ let info = {
     },
     a2: {
         bmi: "Chỉ số BMI 16 - 16,99",
-        danhgia: "Bạn đang ở tình trạng gầy độ 2",
+        danhgia: "Tình trạng gầy độ 2",
         tinhtrang: "Nguy hiểm",
         nguyco:
             "Nguyên nhân dẫn đến tình trạng chủ yếu do tình trạng kém hấp thu, ăn uống kém, mất cảm giác thèm ăn nên qua loa cho xong bữa, khẩu phần không cân đối, thực đơn thiếu đa dạng dẫn đến tình trạng cơ thể đang thiếu protein, chất béo, vitamin và khoáng chất dễ gây ra tình trạng suy giảm đề kháng làm cho Bạn dễ ốm, đối mặt với nhiều nguy cơ bệnh tật như loãng xương, thiếu máu, vô sinh, rụng tóc, suy nhược, giảm trí nhớ…",
@@ -99,7 +99,7 @@ let info = {
     },
     a5: {
         bmi: "Chỉ số BMI  23 - 24,99",
-        danhgia: "Bạn đang ở tình trạng thừa cân",
+        danhgia: "Tình trạng thừa cân",
         tinhtrang: "Đây là tình trạng phổ biến cân nặng cao hơn mức trung bình của một người bình thường.",
         nguyco: "Hiện tượng này là hậu quả của quá trình nạp vào nhiều calo hơn lượng tiêu thụ của cơ thể .Đây là tình trạng có thể điều chỉnh được dễ dàng với chế độ ăn và luyện tập hợp lý. Bạn cần thay đổi lối sống để tránh nguy cơ dẫn đến nguy béo phì sẽ dẫn đến cơ thể dễ mắc các bệnh mãn tính như tiểu đường, bệnh tim mạch, huyết áp cao, xương khớp, đột quỵ và ung thư….",
         goiy: "Ở thời điểm này, Bạn cần quan tâm nhiều hơn đến cân nặng và bắt đầu thay đổi chế độ sinh hoạt thường ngày. Thay đổi chế độ ăn: nên ăn nhiều rau xanh, hạn chế dùng dầu mỡ, sữa không đường, sữa đậu nành, các thực phẩm có calo thấp., uống đủ 2 lít nước mỗi ngày, ăn nhiều vào buổi sáng, hạn chế ăn vặt, không ăn đêm, ăn chậm nhai kỹ sẽ giúp Bạn no lâu hơn… Tỷ lệ mỡ trong cơ thể không hoàn toàn là con số phản ảnh được tình trạng sức khỏe của Bạn. Tuy nhiên ở một góc nhỏ chúng lại giúp Bạn tìm ra những vấn đề cơ thể đang gặp phải. Nếu Bạn đang quan tâm mà chưa có thực đơn phù hợp hãy liên hệ để Bác sĩ và chuyên gia dinh dưỡng học viện Nutri Academy tư vấn và cho Bạn liệu trình cá nhân cụ thể, đồng thời theo dõi và đánh giá tiến độ cải thiện hàng ngày Bạn nhé.",
@@ -107,7 +107,7 @@ let info = {
     },
     a6: {
         bmi: "Chỉ số BMI  25 - 29,99",
-        danhgia: "Bạn đang ở tình trạng thừa cân 1",
+        danhgia: "Tình trạng thừa cân 1",
         tinhtrang: "Đây là tình trạng phổ biến nhất và khởi đầu của béo phì",
         nguyco: "Nguyên nhân Béo phì là khi lượng mỡ tích tụ trong cơ thể nhiều hơn mức cho phép. Hiện tượng này là hậu quả của quá trình nạp vào nhiều calo hơn lượng tiêu thụ. Dễ dẫn đến nguy cơ cao mắc các bệnh mãn tính như tiểu đường, bệnh tim mạch, huyết áp cao, xương khớp, đột quỵ và ung thư…. Khi tình trạng béo phì vượt quá mức cho phép hoặc báo động nghiêm trọng cũng có thể làm tăng nguy cơ bị tử vong.",
         goiy: "Ở thời điểm này, Bạn cần quan tâm nhiều hơn đến cân nặng và bắt đầu thay đổi chế độ sinh hoạt thường ngày. Thay đổi chế độ ăn: nên ăn nhiều rau xanh, hạn chế dùng dầu mỡ, sữa không đường, sữa đậu nành, các thực phẩm có calo thấp, uống đủ 2 lít nước mỗi ngày, ăn nhiều vào buổi sáng, hạn chế ăn vặt, không ăn đêm, ăn chậm nhai kỹ sẽ giúp Bạn no lâu hơn,… Tỷ lệ mỡ trong cơ thể không hoàn toàn là con số phản ảnh được tình trạng sức khỏe của Bạn. Tuy nhiên, ở một góc nhỏ chúng lại giúp Bạn tìm ra những vấn đề cơ thể đang gặp phải. Nếu Bạn đang quan tâm mà chưa có thực đơn phù hợp hãy liên hệ để Bác sĩ và chuyên gia dinh dưỡng học viện Nutri Academy tư vấn và cho Bạn liệu trình cá nhân cụ thể, đồng thời theo dõi và đánh giá tiến độ cải thiện hàng ngày Bạn nhé.",
@@ -123,7 +123,7 @@ let info = {
     },
     a8: {
         bmi: "Chỉ số BMI 35 trở lên",
-        danhgia: "Bạn đang ở tình trạng thừa cân mức độ 3",
+        danhgia: "Tình trạng thừa cân mức độ 3",
         tinhtrang: "Cảnh báo rất nguy hiểm",
         nguyco: "Bạn đang đối mặt với các vấn đề sức khỏe có nguy cơ rất cao như các bệnh mãn tính như tiểu đường, bệnh tim mạch, huyết áp cao, xương khớp, đột quỵ và ung thư. Khi tình trạng béo phì vượt quá mức cho phép hoặc báo động nghiêm trọng cũng có thể làm tăng nguy cơ bị tử vong.",
         goiy: "Ở thời điểm này, Bạn cần đến khám tại các cơ quan y tế để nhận được chế độ dinh dưỡng và luyện tập phù hợp. Nếu chưa có điều kiện đến khám tại các cơ quan y tế Bạn cần lập tức hay đổi chế độ ăn: nên ăn nhiều rau xanh, hạn chế dùng dầu mỡ, sữa không đường, sữa đậu nành, các thực phẩm có calo thấp…, uống đủ 2 lít nước mỗi ngày, ăn nhiều vào buổi sáng, hạn chế ăn vặt, không ăn đêm, ăn chậm nhai kỹ sẽ giúp Bạn no lâu hơn… Tăng cường vận đông. Tuy kết quả tỷ lệ BMI không hoàn toàn là con số phản ảnh được tình trạng sức khỏe của Bạn toàn diện. Tuy nhiên, ở một góc nhỏ chúng lại giúp Bạn tìm ra những vấn đề cơ thể đang gặp phải. Nếu Bạn chưa có thực đơn phù hợp hãy liên hệ Bác sĩ và chuyên gia dinh dưỡng học viện Nutri Academy tư vấn và cho Bạn liệu trình cá nhân cụ thể, đồng thời theo dõi và đánh giá tiến độ cải thiện hàng ngày Bạn nhé.",
